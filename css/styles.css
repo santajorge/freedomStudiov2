@@ -1,0 +1,74 @@
+/*-----CSS General------- */
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;1,400&family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #fff;
+}
+
+h1 h2 {
+  font-family: 'Source Serif Pro', serif;
+}
+
+/*-----CSS Header-------- */
+.nav-menu {
+  background-color: #ee7999;
+  -webkit-box-shadow: 1px 1px 1px black;
+          box-shadow: 1px 1px 1px black;
+}
+
+.custom-link {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 16px;
+  margin-left: 10px;
+}
+
+.custom-link:hover {
+  color: #f7a613;
+}
+
+.logo {
+  width: 60px;
+  margin-left: 10px;
+}
+
+.header {
+  background: url(../img/header.bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-img {
+  width: 550px;
+}
+
+.main-title {
+  font-size: 8em;
+}
+
+.main-description {
+  font-size: 3em;
+}
+
+/*-----CSS Main---------- */
+.about-feature-b {
+  background-color: #f0f0f5;
+}
+
+.services {
+  background: url(../img/services_bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*-----CSS Footer---------- */
+/*# sourceMappingURL=styles.css.map */

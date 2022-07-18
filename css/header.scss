@@ -1,0 +1,39 @@
+.nav-menu{
+    background-color: $pink;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.custom-link {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 16px;
+    margin-left: 10px;
+}
+
+.custom-link:hover {
+    color: $yellow;
+}
+
+.logo{
+    width: 60px;
+    margin-left: 10px;
+}
+
+.header{
+    background: url(../img/header.bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-img{
+    width: 550px;
+}
+
+.main-title{
+    font-size: 8em;
+}
+
+.main-description{
+    font-size: 3em;
+}
